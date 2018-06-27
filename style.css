@@ -1,0 +1,21 @@
+
+#extension-main {width:800px; height: 600px; background: white; padding: 20px;}
+
+.my-savings {width: 350px; background: #00bed6; padding: 15px; float: left; color:#fff;}
+
+.my-savings, .all-savings {width: 350px; background: #00bed6; padding: 15px; float: left; color:#fff;}
+
+.all-savings {background: #9a69cb; margin-left:20px;}
+
+.title {float:left}
+.title h4, .timelines h5, .score h6 {text-transform: uppercase;}
+header .fa {float:left; margin-right: 15px; font-size: 50px;}
+header {clear:both}
+
+.timelines {clear: both; padding-top:15px; }
+.timelines .left {float:left}
+.timelines .right {float:right}
+
+.score {clear:both; padding-top:20px;}
+
+.progress-bar {color:white; background-color: white;}

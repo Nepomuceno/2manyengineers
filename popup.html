@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-  <html>
+  <html lang="en">
     <head>
       <style>
         button {
@@ -8,10 +8,74 @@
           outline: none;
         }
       </style>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
     </head>
     <body>
-      <button id="changeColor"></button>
-      <script src="popup.js"></script>
-      <div id='message'>Injecting Script....</div>
+      <div id="extension-main">
+        <button id="changeColor"></button>
+        <script src="popup.js"></script>
+        <div id='message'>Injecting Script....</div>
+      <!--savenow-->
+
+        <div class="row">
+          <div class="my-savings">
+            <header>
+              <i class="fa fa-user"></i>
+              <div class="title">
+                <h4>My Savings</h4>
+                <div class="counter">£447.39</div>
+              </div>
+            </header>
+            <div class="timelines">
+              <div class="left">
+                <h5>This Month</h5>
+                <div class="counter" >£189.00</div>
+              </div>
+              <div class="right">
+                  <h5>This Year</h5>
+                  <div class="counter" >£369.75</div>
+                </div>
+            </div>
+            <div class="score">
+                <h6 class="">My Score <span class="float-right">72%</span></h6>
+                <div class="js-hr-progress-bar progress g-bg-black-opacity-0_1 rounded-0 g-mb-10">
+                    <div class="js-hr-progress-bar-indicator progress-bar g-bg-white u-progress-bar--xs" role="progressbar" style="width: 72%;" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                <small >In top 100 within the UK</small>
+            </div>
+          </div>
+
+          <div class="all-savings">
+              <header>
+                  <i class="fa fa-users"></i>
+                  <div class="title">
+                    <h4>My Teams Savings</h4>
+                    <div class="counter">£2346.99</div>
+                  </div>
+                </header>
+                <div class="timelines">
+                  <div class="left">
+                    <h5>This Month</h5>
+                    <div class="counter" >£587.49</div>
+                  </div>
+                  <div class="right">
+                      <h5>This Year</h5>
+                      <div class="counter" >£1175.89</div>
+                    </div>
+                </div>
+                <div class="score">
+                    <h6 class="">Team Score <span class="float-right">68%</span></h6>
+                    <div class="js-hr-progress-bar progress g-bg-black-opacity-0_1 rounded-0 g-mb-10">
+                        <div class="js-hr-progress-bar-indicator progress-bar g-bg-white u-progress-bar--xs" role="progressbar" style="width: 72%;" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    <small >In top 250 within the UK</small>
+                </div>
+
+          </div>
+        </div>
+    </div>
     </body>
   </html>
