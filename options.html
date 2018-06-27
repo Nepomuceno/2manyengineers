@@ -2,23 +2,57 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <style>
+    h2 {
+      margin-bottom: 0;
+    }
+
+    h3 {
+      margin: 0 0 30px;
+    }
+
+    .ui-slider-range {
+      background: green;
+    }
+
+    .percent {
+      color: green;
+      font-weight: bold;
+      text-align: center;
+      width: 100%;
+      border: none;
+    }
+  </style>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
 </head>
 
 <body>
-  <select id="charity" >
+
+  <div class="container">
+    <div class="row">
+      <div class="project col-md-4">
+        <h1 class="text-center">Percentage of savings to donate</h1>
+        <h2 class="text-center">
+          <input type="text" id="percentageChange" class="percent" value="0.5" readonly />
+        </h2>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </div>
+  <select style="display: none;" id="charity">
     <option value="Macmillan Cancer Support">Macmillan Cancer Support</option>
     <option value="Unicef">Unicef</option>
     <option value="Little princess Trust">Little princess Trust</option>
     <option value="Help for Heroes">Help for heroes</option>
   </select>
-  <div>
-    <p>Choose how much you want to donate</p>
-    <input type="text" id="percentageChange" value="0.5">
-  </div>
 </body>
+<script src="jquery.min.js"></script>
+<script src="jquery.ui.js"></script>
 <script src="options.js"></script>
 
 </html>
