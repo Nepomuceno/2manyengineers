@@ -23,3 +23,18 @@ header {clear:both}
 .user { width: 720px; background: #f8f9fa; padding: 20px;clear:both; background:#ccc;}
 .user img {float: left; margin-right: 20px;width:50px;}
 .user p {float: left; font-weight: 400;}
+
+
+#message {width: 720px; background: #fff; 
+    padding: 20px;clear:both; 
+    border: solid 2px #ccc; 
+    clear:both; }
+
+#charity {display:none;}
+
+.chairty-info {width: 170px; float: left; }
+.product-info {width: 350px; float:left;}
+.action {width: 100px; float: right; }
+.info {text-transform: uppercase; font-weight: 500}
+#result { font-style: italic; color: #00bed6; font-size: 16px; font-weight: 500;}
+.clearfix{ clear:both;}
