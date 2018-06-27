@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <style>
-        button {
-          height: 30px;
-          width: 30px;
-          outline: none;
-          margin: 10px;
-        }
-      </style>
-    </head>
-    <body>
-      <div id="buttonDiv">
-      </div>
-      <div>
-        <p>Choose a different background color!</p>
-      </div>
-    </body>
-    <script src="options.js"></script>
-  </html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+
+<body>
+  <select id="charity" >
+    <option value="Macmillan Cancer Support">Macmillan Cancer Support</option>
+    <option value="Unicef">Unicef</option>
+    <option value="Little princess Trust">Little princess Trust</option>
+    <option value="Help for Heroes">Help for heroes</option>
+  </select>
+  <div>
+    <p>Choose how much you want to donate</p>
+    <input type="text" id="percentageChange" value="0.5">
+  </div>
+</body>
+<script src="options.js"></script>
+
+</html>
