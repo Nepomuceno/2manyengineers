@@ -32,7 +32,7 @@ const regex = /((?<=data-asin=\")(?<name>[a-zA-Z0-9\.\,]*))|(?<=data-asin-price=
 
 function GetLower(product, price) {
     return [{
-        url: "http://cheap.com/amazing2",
+        url: "",
         difference: "30.00"
     }];
 }
