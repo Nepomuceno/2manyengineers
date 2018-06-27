@@ -1,6 +1,6 @@
 {
     "name": "2manyengineers",
-    "version": "0.2.7",
+    "version": "0.2.8",
     "description": "Save by donating",
     "options_page": "options.html",
     "permissions": [
